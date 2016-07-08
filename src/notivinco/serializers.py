@@ -18,7 +18,6 @@ class UsersSerializer(serializers.ModelSerializer):
 
 
 class NoticesSerializer(serializers.ModelSerializer):
-
     class Meta:
         model = Notice
         fields = (
@@ -41,4 +40,3 @@ class CommentsSerializer(serializers.ModelSerializer):
         	'notice',
         	'user'
         )
-
